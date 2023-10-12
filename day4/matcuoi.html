@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.face {
+    width: 500px;
+    height: 500px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .eye {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .eye:nth-child(1) {
+    left: 150px;
+  }
+  
+  .eye:nth-child(2) { 
+    right: 150px;  
+  }
+  
+  .nose {
+    width: 70px;
+    height: 100px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+  }
+  
+  .mouth {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform:X(-50%);
+    top: 300px;
+    border-radius: 0 0 100px 100px;
+  }</style>
+  
+<body>
+    <div class="face">
+
+        <div class="eye"></div>
+        <div class="eye"></>
+      
+        <div classnose"></div>
+      
+        <div class="mouth"></div>
+      
+      </div>
+      
+</body>
+</html>
